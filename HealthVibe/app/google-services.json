@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "786928858481",
+    "firebase_url": "https://healthvibe-904e5.firebaseio.com",
+    "project_id": "healthvibe-904e5",
+    "storage_bucket": "healthvibe-904e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786928858481:android:c4529cff1780c319",
+        "android_client_info": {
+          "package_name": "com.example.vicky.healthvibe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786928858481-os6c4o75hm771v2is8a8skoob6ccasat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vicky.healthvibe",
+            "certificate_hash": "14ccf9406f6928d8821adeff1d2a61a3ea08835f"
+          }
+        },
+        {
+          "client_id": "786928858481-jsqg2thdhpe3ovv00j9allfsrahiihb5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHTOxGS3gEqergrpnOLwfhgnIFfia8ToQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786928858481-jsqg2thdhpe3ovv00j9allfsrahiihb5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

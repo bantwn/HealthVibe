@@ -1,0 +1,62 @@
+{
+  "clinics" : {
+    "1gsCCDEsKBbk94DkaPmKeStZJhq1" : {
+      "address" : "",
+      "clinic_id" : "1gsCCDEsKBbk94DkaPmKeStZJhq1",
+      "email" : "healthvibeapp@hotmail.com",
+      "username" : "clinic8XzGbWx"
+    },
+    "FcoEeCo3ghhX8RJIXsFUr3F6pNg1" : {
+      "address" : "",
+      "clinic_id" : "FcoEeCo3ghhX8RJIXsFUr3F6pNg1",
+      "email" : "healthvibe12@gmail.com",
+      "username" : "clinic"
+    },
+    "Meg4pcIuWhfGTdbeYcWQeoFPVr63" : {
+      "address" : "V.Sofias 25, Athens",
+      "clinic_id" : "Meg4pcIuWhfGTdbeYcWQeoFPVr63",
+      "email" : "healthvibeapp@gmail.com",
+      "username" : "Euaggelismos"
+    },
+    "odoUPculNKfeA8hEqCgfYo2mzZx1" : {
+      "address" : "",
+      "clinic_id" : "odoUPculNKfeA8hEqCgfYo2mzZx1",
+      "email" : "healthvibe15@gmail.com",
+      "username" : "clin"
+    }
+  },
+  "user_medical_historic" : {
+    "HvHBx41sWOcwJ5Dwe2JYx3Ftc5i2" : {
+      "allergies" : "drugs",
+      "bloodtype" : "B",
+      "diseases" : "sick"
+    },
+    "Nww7E7fuU4R4mBYtrVIDmjGxAXo2" : {
+      "allergies" : "",
+      "bloodtype" : "",
+      "diseases" : ""
+    },
+    "Xbxd8HfV2ZPHbgMWTC5JdTtTmDo2" : {
+      "allergies" : "Gluten",
+      "bloodtype" : "A",
+      "diseases" : "migraine"
+    }
+  },
+  "users" : {
+    "HvHBx41sWOcwJ5Dwe2JYx3Ftc5i2" : {
+      "email" : "bantwn1@gmail.com",
+      "user_id" : "HvHBx41sWOcwJ5Dwe2JYx3Ftc5i2",
+      "username" : "Vicky"
+    },
+    "Nww7E7fuU4R4mBYtrVIDmjGxAXo2" : {
+      "email" : "trit3r@gmail.com",
+      "user_id" : "Nww7E7fuU4R4mBYtrVIDmjGxAXo2",
+      "username" : "Akis"
+    },
+    "Xbxd8HfV2ZPHbgMWTC5JdTtTmDo2" : {
+      "email" : "bantwn@hotmail.gr",
+      "user_id" : "Xbxd8HfV2ZPHbgMWTC5JdTtTmDo2",
+      "username" : "Vasiliki"
+    }
+  }
+}

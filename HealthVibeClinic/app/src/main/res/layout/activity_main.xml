@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/snippet_top_mainbar"
+            android:id="@+id/include" />
+
+        <Button
+            android:id="@+id/available_button"
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="139dp"
+            android:background="@drawable/selector_button"
+            android:text="AVAILABLE"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            tools:ignore="HardcodedText,UnknownIdInLayout"
+            android:layout_below="@+id/include"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

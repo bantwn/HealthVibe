@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightblue1">
+
+        <include layout="@layout/snippet_top_mainbar" />
+
+
+        <Button
+            android:id="@+id/emergency_button"
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:layout_below="@+id/mainToolBar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/selector_button"
+            android:text="EMERGENCY BUTTON"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            tools:ignore="HardcodedText,UnknownIdInLayout" />
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

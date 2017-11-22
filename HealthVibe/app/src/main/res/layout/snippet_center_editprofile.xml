@@ -1,0 +1,193 @@
+<merge xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/your_healthvibe_profile"
+                android:id="@+id/yourprofile"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/blue"
+                android:textSize="25sp"/>
+
+            <!-- username section -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/grey_border_bottom"
+            android:id="@+id/relLayout1">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@mipmap/ic_user1"
+                android:layout_centerVertical="true"
+                android:contentDescription=""
+                tools:ignore="ContentDescription" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/username"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:background="@null"
+                android:inputType="textNoSuggestions"
+                android:hint="username"
+                tools:ignore="HardcodedText" />
+
+        </RelativeLayout>
+
+            <!-- email section -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/relLayout1"
+            android:background="@drawable/grey_border_bottom"
+            android:id="@+id/relLayout2"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@mipmap/ic_email2"
+                android:layout_centerVertical="true"
+                android:contentDescription=""
+                tools:ignore="ContentDescription" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/email"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:background="@null"
+                android:inputType=""
+                android:hint="email"
+                tools:ignore="HardcodedText,TextFields" />
+
+        </RelativeLayout>
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="@string/medical_historic"
+                android:layout_below="@+id/relLayout2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/black"
+                android:background="@drawable/grey_border_bottom"
+                android:id="@+id/textMedicalHistoric"/>
+
+            <!-- diseases section -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/textMedicalHistoric"
+                android:background="@drawable/grey_border_bottom"
+                android:id="@+id/relLayout3"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@mipmap/ic_diseases2"
+                    android:layout_centerVertical="true"
+                    android:contentDescription=""
+                    tools:ignore="ContentDescription" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/diseases"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="@null"
+                    android:inputType=""
+                    android:hint="diseases"
+                    tools:ignore="HardcodedText,TextFields" />
+
+            </RelativeLayout>
+
+            <!-- allergies section -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/relLayout3"
+                android:background="@drawable/grey_border_bottom"
+                android:id="@+id/relLayout4"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@mipmap/ic_allergies1"
+                    android:layout_centerVertical="true"
+                    android:contentDescription=""
+                    tools:ignore="ContentDescription" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/allergies"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="@null"
+                    android:inputType=""
+                    android:hint="allergies"
+                    tools:ignore="HardcodedText,TextFields" />
+
+            </RelativeLayout>
+
+            <!-- bloodtype section -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/relLayout4"
+                android:background="@drawable/grey_border_bottom"
+                android:id="@+id/relLayout5"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@mipmap/ic_blood"
+                    android:layout_centerVertical="true"
+                    android:contentDescription=""
+                    tools:ignore="ContentDescription" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bloodtype"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="@null"
+                    android:inputType=""
+                    android:hint="bloodtype"
+                    tools:ignore="HardcodedText,TextFields" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+</merge>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">HealthVibeClinic</string>
+    <string name="no_account_yet_create_one">No Account yet? Create one</string>
+
+
+    <string name="auth_failed">Failed to Authenticate</string>
+    <string name="auth_success">Authentication Success</string>
+    <string name="account_settings">Account Settings</string>
+
+    <string name="dbname_clinic">clinics</string>
+    <string name="field_username">username</string>
+    <string name="field_email">email</string>
+    <string name="field_address">address</string>
+
+    <string name="edit_profile_fragment">Edit Profile</string>
+    <string name="sign_out_fragment">Sign Out</string>
+
+    <string name="confirm_password_dialog">ConfirmPasswordDialog</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

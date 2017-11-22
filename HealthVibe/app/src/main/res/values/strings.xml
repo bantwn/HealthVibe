@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">HealthVibe</string>
+    <string name="button">Button</string>
+    <string name="didn_t_register_yet_set_up_your_profile_here">Didn\'t register yet? Set up your profile here!</string>
+    <string name="register_error_message">Please make sure you enter an email address and password!</string>
+    <string name="register_error_title">Error!</string>
+    <string name="login_error_title">Error!</string>
+    <string name="login_error_message">Please make sure you enter an email address and password!</string>
+    <string name="login">Login</string>
+    <string name="no_account_yet_create_one">No account yet? Create one</string>
+
+    <string name="auth_failed">Failed to Authenticate</string>
+    <string name="auth_success">Authentication Success</string>
+
+    <string name="dbname_users">users</string>
+    <string name="dbname_user_medical_historic">user_medical_historic</string>
+    <string name="field_username">username</string>
+    <string name="field_email">email</string>
+    <string name="field_diseases">diseases</string>
+    <string name="field_allergies">allergies</string>
+    <string name="field_bloodtype">bloodtype</string>
+
+
+    <string name="edit_profile_fragment">Edit Profile</string>
+    <string name="sign_out_fragment">Sign Out</string>
+    <string name="your_healthvibe_profile">Your HealthVibe Profile</string>
+    <string name="medical_historic">MEDICAL HISTORIC</string>
+    <string name="cancel">CANCEL</string>
+
+    <string name="confirm_password_dialog">ConfirmPasswordDialog</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="call_emergency">Call Emergency</string>
+</resources>
